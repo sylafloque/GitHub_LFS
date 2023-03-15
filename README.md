@@ -7,7 +7,6 @@ Installation et connexion
     git lfs track "*.zip" : ajoute les fichiers ZIP au système Git LFS (Large File Storage)
     git add <fichier> : ajoute un fichier au prochain commit
     git commit -m "<message>" : crée un nouveau commit avec un message descriptif
-    git pull origin main --allow-unrelated-histories : fusionne les modifications locales et distantes (si nécessaire)
 
 Gestion des branches
 
