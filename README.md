@@ -25,3 +25,27 @@ Historique des commits
     git push --force origin main : pousse les modifications locales vers le dépôt distant (avec écrasement des modifications existantes)
 
 N'oubliez pas que certaines commandes peuvent avoir des effets irréversibles sur votre dépôt, alors utilisez-les avec précaution et faites toujours des sauvegardes régulières de vos fichiers importants.
+
+Exemple
+
+    git init
+    git remote add origin  https://github.com/sylafloque/GitHub_LFS
+    git lfs track "*.zip"
+    git add Mon_Dossier.zip
+    git add .gitattributes
+    git commit -m "Ma_Description"
+    // git pull origin main --allow-unrelated-histories //
+    git push origin main
+
+    git branch
+    git branch main
+    git commit -a main
+    git checkout main
+    git branch -a
+
+    git log
+    git checkout main
+    git rebase -i HEAD~<nombre>
+    // git rebase --continue // i et wq pour ecrire et quitter
+    git checkout main
+    git push --force origin main
